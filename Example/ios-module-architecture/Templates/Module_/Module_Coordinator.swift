@@ -10,7 +10,3 @@ final class Module_Coordinator: Coordinator<Module_PresenterType>, Module_Coordi
         super.init(presenter: presenter)
     }
 }
-
-extension Module_Coordinator: Module_PresenterDelegate {
-
-}
