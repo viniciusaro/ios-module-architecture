@@ -10,7 +10,3 @@ final class ___VARIABLE_productName___Coordinator: Coordinator<___VARIABLE_produ
         super.init(presenter: presenter)
     }
 }
-
-extension ___VARIABLE_productName___Coordinator: ___VARIABLE_productName___PresenterDelegate {
-
-}

@@ -4,12 +4,11 @@ import ModuleArchitecture
 // A module should always be instantiated via the createCoordinator method.
 protocol SampleModuleType: ModuleType {
 
-    func createCoordinator() -> SampleCoordinatorType
+    func createCoordinator(listener: SamplePresenterDelegate) -> SampleCoordinatorType
 }
 
-protocol SampleCoordinatorType: CoordinatorType {
+protocol SampleCoordinatorType: ViewableCoordinatorType {
 
-    var viewController: SampleViewControllerType { get }
 }
 
 protocol SamplePresenterType: PresenterType {
