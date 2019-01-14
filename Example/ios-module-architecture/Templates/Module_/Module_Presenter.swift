@@ -6,6 +6,7 @@ protocol Module_PresenterDelegate: AnyObject {
 
 final class Module_Presenter: Presenter, Module_PresenterType {
 
+    weak var coordinator: Module_CoordinatorType?
     weak var viewController: Module_PresenterView?
     weak var delegate: Module_PresenterDelegate?
 

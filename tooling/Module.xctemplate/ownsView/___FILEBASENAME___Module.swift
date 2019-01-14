@@ -10,6 +10,7 @@ final class ___VARIABLE_productName___Module: Module, ___VARIABLE_productName___
         viewController.delegate = presenter
         presenter.viewController = viewController
         presenter.delegate = listener
+        presenter.coordinator = coordinator
         return coordinator
     }
 }

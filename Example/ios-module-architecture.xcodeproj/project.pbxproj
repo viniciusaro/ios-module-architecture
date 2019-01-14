@@ -19,13 +19,13 @@
 		205642942062CF9600ACE96E /* Module_Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205642892062CF9600ACE96E /* Module_Definitions.swift */; };
 		205642952062CF9600ACE96E /* Module_Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056428A2062CF9600ACE96E /* Module_Presenter.swift */; };
 		205642962062CF9600ACE96E /* Module_Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056428B2062CF9600ACE96E /* Module_Component.swift */; };
-		24EEAA1A21EC08DC00DAB296 /* SampleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAA1321EC08DC00DAB296 /* SampleConfiguration.swift */; };
-		24EEAA1B21EC08DC00DAB296 /* SampleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAA1421EC08DC00DAB296 /* SampleCoordinator.swift */; };
-		24EEAA1C21EC08DC00DAB296 /* SampleModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAA1521EC08DC00DAB296 /* SampleModule.swift */; };
-		24EEAA1D21EC08DC00DAB296 /* SamplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAA1621EC08DC00DAB296 /* SamplePresenter.swift */; };
-		24EEAA1E21EC08DC00DAB296 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAA1721EC08DC00DAB296 /* SampleViewController.swift */; };
-		24EEAA1F21EC08DC00DAB296 /* SampleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAA1821EC08DC00DAB296 /* SampleComponent.swift */; };
-		24EEAA2021EC08DC00DAB296 /* SampleDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAA1921EC08DC00DAB296 /* SampleDefinitions.swift */; };
+		24EEAAB321EC12CC00DAB296 /* SampleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAAAC21EC12CC00DAB296 /* SampleConfiguration.swift */; };
+		24EEAAB421EC12CC00DAB296 /* SampleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAAAD21EC12CC00DAB296 /* SampleCoordinator.swift */; };
+		24EEAAB521EC12CC00DAB296 /* SampleModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAAAE21EC12CC00DAB296 /* SampleModule.swift */; };
+		24EEAAB621EC12CC00DAB296 /* SamplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAAAF21EC12CC00DAB296 /* SamplePresenter.swift */; };
+		24EEAAB721EC12CC00DAB296 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAAB021EC12CC00DAB296 /* SampleViewController.swift */; };
+		24EEAAB821EC12CC00DAB296 /* SampleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAAB121EC12CC00DAB296 /* SampleComponent.swift */; };
+		24EEAAB921EC12CC00DAB296 /* SampleDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EEAAB221EC12CC00DAB296 /* SampleDefinitions.swift */; };
 		4A7BB957059C7A7B890D1F8D /* Pods_ios_module_architecture_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426520ED70C300A96FADBBF9 /* Pods_ios_module_architecture_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -63,13 +63,13 @@
 		205642892062CF9600ACE96E /* Module_Definitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Module_Definitions.swift; sourceTree = "<group>"; };
 		2056428A2062CF9600ACE96E /* Module_Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Module_Presenter.swift; sourceTree = "<group>"; };
 		2056428B2062CF9600ACE96E /* Module_Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Module_Component.swift; sourceTree = "<group>"; };
-		24EEAA1321EC08DC00DAB296 /* SampleConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleConfiguration.swift; sourceTree = "<group>"; };
-		24EEAA1421EC08DC00DAB296 /* SampleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCoordinator.swift; sourceTree = "<group>"; };
-		24EEAA1521EC08DC00DAB296 /* SampleModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModule.swift; sourceTree = "<group>"; };
-		24EEAA1621EC08DC00DAB296 /* SamplePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePresenter.swift; sourceTree = "<group>"; };
-		24EEAA1721EC08DC00DAB296 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
-		24EEAA1821EC08DC00DAB296 /* SampleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleComponent.swift; sourceTree = "<group>"; };
-		24EEAA1921EC08DC00DAB296 /* SampleDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDefinitions.swift; sourceTree = "<group>"; };
+		24EEAAAC21EC12CC00DAB296 /* SampleConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleConfiguration.swift; sourceTree = "<group>"; };
+		24EEAAAD21EC12CC00DAB296 /* SampleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCoordinator.swift; sourceTree = "<group>"; };
+		24EEAAAE21EC12CC00DAB296 /* SampleModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModule.swift; sourceTree = "<group>"; };
+		24EEAAAF21EC12CC00DAB296 /* SamplePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePresenter.swift; sourceTree = "<group>"; };
+		24EEAAB021EC12CC00DAB296 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		24EEAAB121EC12CC00DAB296 /* SampleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleComponent.swift; sourceTree = "<group>"; };
+		24EEAAB221EC12CC00DAB296 /* SampleDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDefinitions.swift; sourceTree = "<group>"; };
 		426520ED70C300A96FADBBF9 /* Pods_ios_module_architecture_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_module_architecture_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A640D003D4618D4568B33F /* Pods-ios-module-architecture_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-module-architecture_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-module-architecture_Example/Pods-ios-module-architecture_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4EB38509D25141BAC263B3E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -221,13 +221,13 @@
 		631F57A7208656970029AA11 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				24EEAA1321EC08DC00DAB296 /* SampleConfiguration.swift */,
-				24EEAA1421EC08DC00DAB296 /* SampleCoordinator.swift */,
-				24EEAA1521EC08DC00DAB296 /* SampleModule.swift */,
-				24EEAA1621EC08DC00DAB296 /* SamplePresenter.swift */,
-				24EEAA1721EC08DC00DAB296 /* SampleViewController.swift */,
-				24EEAA1821EC08DC00DAB296 /* SampleComponent.swift */,
-				24EEAA1921EC08DC00DAB296 /* SampleDefinitions.swift */,
+				24EEAAAC21EC12CC00DAB296 /* SampleConfiguration.swift */,
+				24EEAAAD21EC12CC00DAB296 /* SampleCoordinator.swift */,
+				24EEAAAE21EC12CC00DAB296 /* SampleModule.swift */,
+				24EEAAAF21EC12CC00DAB296 /* SamplePresenter.swift */,
+				24EEAAB021EC12CC00DAB296 /* SampleViewController.swift */,
+				24EEAAB121EC12CC00DAB296 /* SampleComponent.swift */,
+				24EEAAB221EC12CC00DAB296 /* SampleDefinitions.swift */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -481,23 +481,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24EEAA1E21EC08DC00DAB296 /* SampleViewController.swift in Sources */,
-				24EEAA1F21EC08DC00DAB296 /* SampleComponent.swift in Sources */,
+				24EEAAB721EC12CC00DAB296 /* SampleViewController.swift in Sources */,
+				24EEAAB821EC12CC00DAB296 /* SampleComponent.swift in Sources */,
 				205642962062CF9600ACE96E /* Module_Component.swift in Sources */,
-				24EEAA1C21EC08DC00DAB296 /* SampleModule.swift in Sources */,
+				24EEAAB521EC12CC00DAB296 /* SampleModule.swift in Sources */,
 				98FAB56F20AB5B380042386E /* WatchModule_Presenter.swift in Sources */,
 				98FAB56D20AB5AFE0042386E /* WatchModule_InterfaceController.swift in Sources */,
 				205642912062CF9600ACE96E /* Module_Module.swift in Sources */,
 				2056428C2062CF9600ACE96E /* ViewLessModule_Presenter.swift in Sources */,
 				205642952062CF9600ACE96E /* Module_Presenter.swift in Sources */,
-				24EEAA1A21EC08DC00DAB296 /* SampleConfiguration.swift in Sources */,
-				24EEAA1D21EC08DC00DAB296 /* SamplePresenter.swift in Sources */,
+				24EEAAB321EC12CC00DAB296 /* SampleConfiguration.swift in Sources */,
+				24EEAAB621EC12CC00DAB296 /* SamplePresenter.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				2056428E2062CF9600ACE96E /* ViewLessModule_Coordinator.swift in Sources */,
 				205642922062CF9600ACE96E /* Module_Coordinator.swift in Sources */,
 				2056428F2062CF9600ACE96E /* ViewLessModule_Module.swift in Sources */,
-				24EEAA1B21EC08DC00DAB296 /* SampleCoordinator.swift in Sources */,
-				24EEAA2021EC08DC00DAB296 /* SampleDefinitions.swift in Sources */,
+				24EEAAB421EC12CC00DAB296 /* SampleCoordinator.swift in Sources */,
+				24EEAAB921EC12CC00DAB296 /* SampleDefinitions.swift in Sources */,
 				98FAB57320AB5B650042386E /* WatchModule_Definitions.swift in Sources */,
 				98FAB57120AB5B550042386E /* WatchModule_Configuration.swift in Sources */,
 				205642942062CF9600ACE96E /* Module_Definitions.swift in Sources */,

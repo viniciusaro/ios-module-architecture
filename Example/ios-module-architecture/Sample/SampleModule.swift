@@ -10,6 +10,7 @@ final class SampleModule: Module, SampleModuleType {
         viewController.delegate = presenter
         presenter.viewController = viewController
         presenter.delegate = listener
+        presenter.coordinator = coordinator
         return coordinator
     }
 }

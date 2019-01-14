@@ -6,6 +6,7 @@ protocol ___VARIABLE_productName___PresenterDelegate: AnyObject {
 
 final class ___VARIABLE_productName___Presenter: Presenter, ___VARIABLE_productName___PresenterType {
 
+    weak var coordinator: ___VARIABLE_productName___CoordinatorType?
     weak var viewController: ___VARIABLE_productName___PresenterView?
     weak var delegate: ___VARIABLE_productName___PresenterDelegate?
 

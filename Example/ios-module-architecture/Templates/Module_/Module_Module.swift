@@ -10,6 +10,7 @@ final class Module_Module: Module, Module_ModuleType {
         viewController.delegate = presenter
         presenter.viewController = viewController
         presenter.delegate = listener
+        presenter.coordinator = coordinator
         return coordinator
     }
 }
